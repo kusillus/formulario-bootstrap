@@ -23,3 +23,9 @@ body{
 .no-separacion{
 	margin: 0px;
 }
+.sombra{
+	box-shadow: 1px 1px 25px grey;
+}
+.contenedor{
+	max-width: 300px;
+}
