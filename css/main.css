@@ -1,0 +1,25 @@
+body{
+	font-family: 'Lato', sans-serif;
+}
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+.quitar-float{
+	float: none; 
+}
+.espacio-arriba{
+	margin-top: 10%;
+}
+.fondo{
+	background-color: #EEF2F2;
+	border-radius: 15px;
+}
+.separacion{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.no-separacion{
+	margin: 0px;
+}
