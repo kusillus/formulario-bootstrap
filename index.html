@@ -11,24 +11,40 @@
 	<title>Formularios Bootstrap</title>
 </head>
 <body>
-	<div class="col-md-3  animated fadeIn contenedor fondo sombra center-block quitar-float espacio-arriba">
-	<div class="col-md-12 separacion center-block quitar-float espacio-arriba bordes">
-	
-	<form>
-		<div class="form-group">
-			<label for="inputMail">Email</label>
-			<input type="email" class="form-control" placeholder="Email"></input>
+<div class="padding-largo text-center">
+		<div class="list-group">
+			<a class="col-md-4 inline-block list-group-item active">inicio</a>
+			<a href="vamo-calmarno.html" class="col-md-4 inline-block list-group-item">Vamo a programarlo</a>
+			<a href="login.html" class="col-md-4 inline-block list-group-item">login Test</a>
 		</div>
-		<div class="form-group">
-			<label for="inputPassword">Password</label>
-			<input type="password" class="form-control" placeholder="Password"></input>
-		</div>
-		<div class="checkbox">
-			<label><input type="checkbox">Recuerdame</label>
-		</div>
-		<button type="submit" class=" center-block btn btn-primary">Entrar</button>
-	</form>
 	</div>
-</div>
+	<div class="col-md-3  animated rubberBand contenedor fondo sombra center-block quitar-float espacio-arriba">
+		<div class="col-md-12 separacion center-block quitar-float espacio-arriba bordes">
+			<form action="vamo-calmarno.html">
+				<h4 class="text-center">Datos del Entrenador</h3>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Nombre y Apellido"></input>
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Pokemon ID"></input>
+					<a class="pequenio" href="#"><p class="text-center">Conseguir un Pkmn Id</p></a>
+				</div>
+				
+				<div class="form-group">
+					<input type="text" class="form-control" placeholder="Nick en el Juego"></input>
+				</div>
+				<div class="form-group">
+					<select class="form-control">
+						<option>Pkmn X</option>
+						<option>Pkmn Y</option>
+						<option>Pkmn OR</option>
+						<option>Pkmn AZ</option>
+					</select>
+				</div>
+				<button type="submit" class="center-block btn btn-primary">Siguiente</button>
+
+			</form>
+		</div>
+	</div>
 </body>
 </html>

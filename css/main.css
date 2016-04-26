@@ -1,16 +1,34 @@
 body{
 	font-family: 'Lato', sans-serif;
 }
+.letra{
+	font-family: 'Anton', sans-serif;
+	color: white;
+}
 .inline-block{
 	float: none;
 	display: inline-block;
 	margin-right: -4px;
 }
+h1{
+	text-shadow: 0px 0px 10px black;
+}
 .quitar-float{
 	float: none; 
 }
+.no-lista{
+	padding: 0px;
+	margin: 0px;
+}
 .espacio-arriba{
 	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.retraso{
+	animation-delay: 0.7s;
+}
+.padding-largo{
+	padding: 5px 10px;
 }
 .fondo{
 	background-color: #EEF2F2;
@@ -28,4 +46,8 @@ body{
 }
 .contenedor{
 	max-width: 300px;
+}
+
+.pequenio{
+	font-size: 12px;
 }
